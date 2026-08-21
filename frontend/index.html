@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ocean" data-mode="light" data-font-size="medium" data-editor-font-size="14" data-animations="true">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODE SPRINT — Learn. Practice. Code. Master.</title>
+  <meta name="description" content="Master software engineering with CODE SPRINT: 350+ structured topics, interactive self-evaluating worksheets, split-screen compiler, 120+ coding challenges, and multi-language execution.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+  <div class="app-container" id="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-name">CODE SPRINT</div>
+        <span class="brand-badge">PRO</span>
+      </div>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <div class="nav-section-title">Learning Core</div>
+        <a href="#/" class="nav-link active" data-route="home" id="nav-home">
+          <span class="nav-icon">🏠</span>
+          <span>Home</span>
+        </a>
+        <a href="#/languages" class="nav-link" data-route="languages" id="nav-languages">
+          <span class="nav-icon">📚</span>
+          <span>Languages</span>
+        </a>
+        <a href="#/compiler" class="nav-link" data-route="compiler" id="nav-compiler">
+          <span class="nav-icon">💻</span>
+          <span>Interactive Compiler</span>
+        </a>
+        <a href="#/challenges" class="nav-link" data-route="challenges" id="nav-challenges">
+          <span class="nav-icon">🎯</span>
+          <span>Coding Challenges</span>
+        </a>
+
+        <div class="nav-section-title">Interview & Prep</div>
+        <a href="#/interview" class="nav-link" data-route="interview" id="nav-interview">
+          <span class="nav-icon">💼</span>
+          <span>Interview Questions</span>
+        </a>
+
+        <div class="nav-section-title">Analytics & Config</div>
+        <a href="#/progress" class="nav-link" data-route="progress" id="nav-progress">
+          <span class="nav-icon">📊</span>
+          <span>My Progress</span>
+        </a>
+        <a href="#/settings" class="nav-link" data-route="settings" id="nav-settings">
+          <span class="nav-icon">⚙️</span>
+          <span>Settings</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="streak-badge" id="streak-indicator" title="Daily Streak Active">
+          <span>🔥</span>
+          <span id="streak-text">1 Day Streak</span>
+        </div>
+        <button class="btn-icon" id="quick-theme-toggle" title="Toggle Light/Dark Theme" aria-label="Toggle Theme">
+          <span id="theme-toggle-icon">🌙</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <div class="main-wrapper">
+      <!-- TOP HEADER -->
+      <header class="top-header">
+        <div class="header-left">
+          <button class="btn-icon" id="mobile-menu-toggle" style="display: none;" aria-label="Toggle menu">
+            <span>☰</span>
+          </button>
+          <div class="search-trigger" id="global-search-trigger" role="button" tabindex="0" aria-label="Search CODE SPRINT">
+            <span>🔍</span>
+            <span>Search topics, challenges...</span>
+            <kbd class="kbd-shortcut">/</kbd>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <button class="btn btn-outline" id="header-sql-btn" onclick="location.hash='#/compiler?lang=sql'">
+            <span>🗄️ SQL Playground</span>
+          </button>
+          <div id="auth-header-container">
+            <!-- Dynamically populated with Sign In/Register or User Profile badge -->
+          </div>
+        </div>
+      </header>
+
+      <!-- DYNAMIC VIEW MOUNT -->
+      <main class="view-container" id="app-root">
+        <!-- Content dynamically injected by client-side router -->
+      </main>
+    </div>
+
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <nav class="mobile-bottom-nav" aria-label="Mobile Navigation">
+      <a href="#/" class="mobile-nav-item active" data-route="home">
+        <span>🏠</span>
+        <span>Home</span>
+      </a>
+      <a href="#/languages" class="mobile-nav-item" data-route="languages">
+        <span>📚</span>
+        <span>Learn</span>
+      </a>
+      <a href="#/compiler" class="mobile-nav-item" data-route="compiler">
+        <span>💻</span>
+        <span>Compiler</span>
+      </a>
+      <a href="#/challenges" class="mobile-nav-item" data-route="challenges">
+        <span>🎯</span>
+        <span>Solve</span>
+      </a>
+      <a href="#/progress" class="mobile-nav-item" data-route="progress">
+        <span>📊</span>
+        <span>Progress</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div class="modal-backdrop" id="search-modal" role="dialog" aria-modal="true">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <span>🔍</span>
+        <input type="text" class="search-modal-input" id="search-modal-input" placeholder="Search Python, loops, SQL, interview questions..." autocomplete="off">
+        <button class="btn-icon" id="search-modal-close" aria-label="Close search">✕</button>
+      </div>
+      <div class="search-results-list" id="search-results-container">
+        <div style="padding: 24px; text-align: center; color: var(--text-muted);">
+          Type to search instantly across all languages, topics, worksheets, and challenges.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- MODULAR JAVASCRIPT FILES -->
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/state.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script src="/static/js/home.js"></script>
+  <script src="/static/js/syllabus.js"></script>
+  <script src="/static/js/lesson.js"></script>
+  <script src="/static/js/worksheet.js"></script>
+  <script src="/static/js/quiz.js"></script>
+  <script src="/static/js/compiler.js"></script>
+  <script src="/static/js/challenges.js"></script>
+  <script src="/static/js/interview.js"></script>
+  <script src="/static/js/progress.js"></script>
+  <script src="/static/js/settings.js"></script>
+  <script src="/static/js/router.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

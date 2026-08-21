@@ -1,0 +1,6 @@
+{
+  "name": "CODE SPRINT",
+  "description": "Learn. Practice. Code. Master. Full-stack interactive programming platform with 350+ structured curriculum topics, self-evaluating worksheets with Try Myself split-screen compiler, 120+ coding challenges, and multi-language real code execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

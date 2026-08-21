@@ -1,0 +1,3782 @@
+[
+  {
+    "id": "ch-py-001",
+    "title": "Sum of Two Numbers (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "# Sum of Two Numbers - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"12\")\n\nsolve()\n",
+    "expected_solution": "# Sum of Two Numbers - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"12\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-002",
+    "title": "Even or Odd Checker (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "# Even or Odd Checker - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"Even\")\n\nsolve()\n",
+    "expected_solution": "# Even or Odd Checker - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"Even\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-003",
+    "title": "Multiplication Table (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "# Multiplication Table - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3 6 9 12 15\")\n\nsolve()\n",
+    "expected_solution": "# Multiplication Table - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3 6 9 12 15\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-004",
+    "title": "Find Maximum of Three Numbers (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "# Find Maximum of Three Numbers - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"25\")\n\nsolve()\n",
+    "expected_solution": "# Find Maximum of Three Numbers - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"25\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-005",
+    "title": "Factorial Calculator (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "# Factorial Calculator - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"120\")\n\nsolve()\n",
+    "expected_solution": "# Factorial Calculator - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"120\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-006",
+    "title": "Count Characters in String (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "# Count Characters in String - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"10\")\n\nsolve()\n",
+    "expected_solution": "# Count Characters in String - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"10\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-007",
+    "title": "Check Palindrome String (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "# Check Palindrome String - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"YES\")\n\nsolve()\n",
+    "expected_solution": "# Check Palindrome String - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"YES\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-008",
+    "title": "Array Summation (Python)",
+    "language": "Python",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "# Array Summation - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"15\")\n\nsolve()\n",
+    "expected_solution": "# Array Summation - Easy\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"15\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-009",
+    "title": "Reverse Words in a Sentence (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "# Reverse Words in a Sentence - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"Sprint Code World Hello\")\n\nsolve()\n",
+    "expected_solution": "# Reverse Words in a Sentence - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"Sprint Code World Hello\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-010",
+    "title": "Find Second Largest Element (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "# Find Second Largest Element - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"30\")\n\nsolve()\n",
+    "expected_solution": "# Find Second Largest Element - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"30\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-011",
+    "title": "Prime Number Sieve (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "# Prime Number Sieve - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"PRIME\")\n\nsolve()\n",
+    "expected_solution": "# Prime Number Sieve - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"PRIME\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-012",
+    "title": "Fibonacci Sequence Generator (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "# Fibonacci Sequence Generator - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"21\")\n\nsolve()\n",
+    "expected_solution": "# Fibonacci Sequence Generator - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"21\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-013",
+    "title": "Two Sum Problem (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "# Two Sum Problem - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"2 7\")\n\nsolve()\n",
+    "expected_solution": "# Two Sum Problem - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"2 7\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-014",
+    "title": "Valid Parentheses (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "# Valid Parentheses - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"VALID\")\n\nsolve()\n",
+    "expected_solution": "# Valid Parentheses - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"VALID\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-015",
+    "title": "Binary Search Implementation (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "# Binary Search Implementation - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "expected_solution": "# Binary Search Implementation - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-016",
+    "title": "Matrix Transpose (Python)",
+    "language": "Python",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "# Matrix Transpose - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"1 3\n2 4\")\n\nsolve()\n",
+    "expected_solution": "# Matrix Transpose - Medium\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"1 3\n2 4\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-017",
+    "title": "Longest Substring Without Repeating Characters (Python)",
+    "language": "Python",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "# Longest Substring Without Repeating Characters - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "expected_solution": "# Longest Substring Without Repeating Characters - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-018",
+    "title": "Merge K Sorted Arrays (Python)",
+    "language": "Python",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "# Merge K Sorted Arrays - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"1 1 2 3 4 4 5 6\")\n\nsolve()\n",
+    "expected_solution": "# Merge K Sorted Arrays - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"1 1 2 3 4 4 5 6\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-019",
+    "title": "Trapping Rain Water (Python)",
+    "language": "Python",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "# Trapping Rain Water - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"6\")\n\nsolve()\n",
+    "expected_solution": "# Trapping Rain Water - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"6\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-020",
+    "title": "Coin Change Problem (Min Coins) (Python)",
+    "language": "Python",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "# Coin Change Problem (Min Coins) - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "expected_solution": "# Coin Change Problem (Min Coins) - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-py-021",
+    "title": "Lowest Common Ancestor in Binary Tree (Python)",
+    "language": "Python",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "# Lowest Common Ancestor in Binary Tree - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "expected_solution": "# Lowest Common Ancestor in Binary Tree - Hard\n# Language: Python\n\ndef solve():\n    # Read input and print solution\n    import sys\n    lines = sys.stdin.read().strip().split()\n    if not lines:\n        return\n    # Solution logic here\n    print(\"3\")\n\nsolve()\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-022",
+    "title": "Sum of Two Numbers (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "// Sum of Two Numbers - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"12\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Sum of Two Numbers - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"12\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-023",
+    "title": "Even or Odd Checker (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "// Even or Odd Checker - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"Even\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Even or Odd Checker - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"Even\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-024",
+    "title": "Multiplication Table (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "// Multiplication Table - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3 6 9 12 15\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Multiplication Table - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3 6 9 12 15\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-025",
+    "title": "Find Maximum of Three Numbers (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "// Find Maximum of Three Numbers - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"25\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Find Maximum of Three Numbers - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"25\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-026",
+    "title": "Factorial Calculator (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "// Factorial Calculator - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"120\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Factorial Calculator - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"120\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-027",
+    "title": "Count Characters in String (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "// Count Characters in String - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"10\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Count Characters in String - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"10\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-028",
+    "title": "Check Palindrome String (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "// Check Palindrome String - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"YES\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Check Palindrome String - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"YES\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-029",
+    "title": "Array Summation (C)",
+    "language": "C",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "// Array Summation - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"15\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Array Summation - Easy\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"15\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-030",
+    "title": "Reverse Words in a Sentence (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "// Reverse Words in a Sentence - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"Sprint Code World Hello\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Reverse Words in a Sentence - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"Sprint Code World Hello\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-031",
+    "title": "Find Second Largest Element (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "// Find Second Largest Element - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"30\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Find Second Largest Element - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"30\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-032",
+    "title": "Prime Number Sieve (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "// Prime Number Sieve - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"PRIME\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Prime Number Sieve - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"PRIME\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-033",
+    "title": "Fibonacci Sequence Generator (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "// Fibonacci Sequence Generator - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"21\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Fibonacci Sequence Generator - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"21\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-034",
+    "title": "Two Sum Problem (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "// Two Sum Problem - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"2 7\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Two Sum Problem - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"2 7\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-035",
+    "title": "Valid Parentheses (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "// Valid Parentheses - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"VALID\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Valid Parentheses - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"VALID\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-036",
+    "title": "Binary Search Implementation (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "// Binary Search Implementation - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Binary Search Implementation - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-037",
+    "title": "Matrix Transpose (C)",
+    "language": "C",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "// Matrix Transpose - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"1 3\n2 4\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Matrix Transpose - Medium\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"1 3\n2 4\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-038",
+    "title": "Longest Substring Without Repeating Characters (C)",
+    "language": "C",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "// Longest Substring Without Repeating Characters - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Longest Substring Without Repeating Characters - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-039",
+    "title": "Merge K Sorted Arrays (C)",
+    "language": "C",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "// Merge K Sorted Arrays - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"1 1 2 3 4 4 5 6\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Merge K Sorted Arrays - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"1 1 2 3 4 4 5 6\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-040",
+    "title": "Trapping Rain Water (C)",
+    "language": "C",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "// Trapping Rain Water - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"6\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Trapping Rain Water - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"6\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-041",
+    "title": "Coin Change Problem (Min Coins) (C)",
+    "language": "C",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "// Coin Change Problem (Min Coins) - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Coin Change Problem (Min Coins) - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-c-042",
+    "title": "Lowest Common Ancestor in Binary Tree (C)",
+    "language": "C",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "expected_solution": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: C\n#include <stdio.h>\n\nint main() {\n    // Read input and print solution\n    printf(\"3\\n\");\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-043",
+    "title": "Sum of Two Numbers (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "// Sum of Two Numbers - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"12\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Sum of Two Numbers - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"12\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-044",
+    "title": "Even or Odd Checker (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "// Even or Odd Checker - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"Even\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Even or Odd Checker - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"Even\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-045",
+    "title": "Multiplication Table (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "// Multiplication Table - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3 6 9 12 15\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Multiplication Table - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3 6 9 12 15\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-046",
+    "title": "Find Maximum of Three Numbers (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "// Find Maximum of Three Numbers - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"25\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Find Maximum of Three Numbers - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"25\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-047",
+    "title": "Factorial Calculator (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "// Factorial Calculator - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"120\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Factorial Calculator - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"120\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-048",
+    "title": "Count Characters in String (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "// Count Characters in String - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"10\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Count Characters in String - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"10\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-049",
+    "title": "Check Palindrome String (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "// Check Palindrome String - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"YES\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Check Palindrome String - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"YES\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-050",
+    "title": "Array Summation (C++)",
+    "language": "C++",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "// Array Summation - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"15\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Array Summation - Easy\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"15\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-051",
+    "title": "Reverse Words in a Sentence (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "// Reverse Words in a Sentence - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"Sprint Code World Hello\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Reverse Words in a Sentence - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"Sprint Code World Hello\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-052",
+    "title": "Find Second Largest Element (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "// Find Second Largest Element - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"30\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Find Second Largest Element - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"30\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-053",
+    "title": "Prime Number Sieve (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "// Prime Number Sieve - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"PRIME\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Prime Number Sieve - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"PRIME\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-054",
+    "title": "Fibonacci Sequence Generator (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "// Fibonacci Sequence Generator - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"21\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Fibonacci Sequence Generator - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"21\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-055",
+    "title": "Two Sum Problem (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "// Two Sum Problem - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"2 7\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Two Sum Problem - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"2 7\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-056",
+    "title": "Valid Parentheses (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "// Valid Parentheses - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"VALID\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Valid Parentheses - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"VALID\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-057",
+    "title": "Binary Search Implementation (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "// Binary Search Implementation - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Binary Search Implementation - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-058",
+    "title": "Matrix Transpose (C++)",
+    "language": "C++",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "// Matrix Transpose - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"1 3\n2 4\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Matrix Transpose - Medium\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"1 3\n2 4\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-059",
+    "title": "Longest Substring Without Repeating Characters (C++)",
+    "language": "C++",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "// Longest Substring Without Repeating Characters - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Longest Substring Without Repeating Characters - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-060",
+    "title": "Merge K Sorted Arrays (C++)",
+    "language": "C++",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "// Merge K Sorted Arrays - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"1 1 2 3 4 4 5 6\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Merge K Sorted Arrays - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"1 1 2 3 4 4 5 6\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-061",
+    "title": "Trapping Rain Water (C++)",
+    "language": "C++",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "// Trapping Rain Water - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"6\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Trapping Rain Water - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"6\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-062",
+    "title": "Coin Change Problem (Min Coins) (C++)",
+    "language": "C++",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "// Coin Change Problem (Min Coins) - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Coin Change Problem (Min Coins) - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-cpp-063",
+    "title": "Lowest Common Ancestor in Binary Tree (C++)",
+    "language": "C++",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "expected_solution": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: C++\n#include <iostream>\nusing namespace std;\n\nint main() {\n    // Read input and print solution\n    cout << \"3\" << endl;\n    return 0;\n}\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-064",
+    "title": "Sum of Two Numbers (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "// Sum of Two Numbers - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"12\");\n    }\n}\n",
+    "expected_solution": "// Sum of Two Numbers - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"12\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-065",
+    "title": "Even or Odd Checker (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "// Even or Odd Checker - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"Even\");\n    }\n}\n",
+    "expected_solution": "// Even or Odd Checker - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"Even\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-066",
+    "title": "Multiplication Table (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "// Multiplication Table - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3 6 9 12 15\");\n    }\n}\n",
+    "expected_solution": "// Multiplication Table - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3 6 9 12 15\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-067",
+    "title": "Find Maximum of Three Numbers (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "// Find Maximum of Three Numbers - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"25\");\n    }\n}\n",
+    "expected_solution": "// Find Maximum of Three Numbers - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"25\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-068",
+    "title": "Factorial Calculator (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "// Factorial Calculator - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"120\");\n    }\n}\n",
+    "expected_solution": "// Factorial Calculator - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"120\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-069",
+    "title": "Count Characters in String (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "// Count Characters in String - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"10\");\n    }\n}\n",
+    "expected_solution": "// Count Characters in String - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"10\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-070",
+    "title": "Check Palindrome String (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "// Check Palindrome String - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"YES\");\n    }\n}\n",
+    "expected_solution": "// Check Palindrome String - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"YES\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-071",
+    "title": "Array Summation (Java)",
+    "language": "Java",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "// Array Summation - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"15\");\n    }\n}\n",
+    "expected_solution": "// Array Summation - Easy\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"15\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-072",
+    "title": "Reverse Words in a Sentence (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "// Reverse Words in a Sentence - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"Sprint Code World Hello\");\n    }\n}\n",
+    "expected_solution": "// Reverse Words in a Sentence - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"Sprint Code World Hello\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-073",
+    "title": "Find Second Largest Element (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "// Find Second Largest Element - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"30\");\n    }\n}\n",
+    "expected_solution": "// Find Second Largest Element - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"30\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-074",
+    "title": "Prime Number Sieve (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "// Prime Number Sieve - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"PRIME\");\n    }\n}\n",
+    "expected_solution": "// Prime Number Sieve - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"PRIME\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-075",
+    "title": "Fibonacci Sequence Generator (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "// Fibonacci Sequence Generator - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"21\");\n    }\n}\n",
+    "expected_solution": "// Fibonacci Sequence Generator - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"21\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-076",
+    "title": "Two Sum Problem (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "// Two Sum Problem - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"2 7\");\n    }\n}\n",
+    "expected_solution": "// Two Sum Problem - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"2 7\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-077",
+    "title": "Valid Parentheses (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "// Valid Parentheses - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"VALID\");\n    }\n}\n",
+    "expected_solution": "// Valid Parentheses - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"VALID\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-078",
+    "title": "Binary Search Implementation (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "// Binary Search Implementation - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "expected_solution": "// Binary Search Implementation - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-079",
+    "title": "Matrix Transpose (Java)",
+    "language": "Java",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "// Matrix Transpose - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"1 3\n2 4\");\n    }\n}\n",
+    "expected_solution": "// Matrix Transpose - Medium\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"1 3\n2 4\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-080",
+    "title": "Longest Substring Without Repeating Characters (Java)",
+    "language": "Java",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "// Longest Substring Without Repeating Characters - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "expected_solution": "// Longest Substring Without Repeating Characters - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-081",
+    "title": "Merge K Sorted Arrays (Java)",
+    "language": "Java",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "// Merge K Sorted Arrays - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"1 1 2 3 4 4 5 6\");\n    }\n}\n",
+    "expected_solution": "// Merge K Sorted Arrays - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"1 1 2 3 4 4 5 6\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-082",
+    "title": "Trapping Rain Water (Java)",
+    "language": "Java",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "// Trapping Rain Water - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"6\");\n    }\n}\n",
+    "expected_solution": "// Trapping Rain Water - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"6\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-083",
+    "title": "Coin Change Problem (Min Coins) (Java)",
+    "language": "Java",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "// Coin Change Problem (Min Coins) - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "expected_solution": "// Coin Change Problem (Min Coins) - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-java-084",
+    "title": "Lowest Common Ancestor in Binary Tree (Java)",
+    "language": "Java",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "expected_solution": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: Java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Read input and print solution\n        System.out.println(\"3\");\n    }\n}\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-085",
+    "title": "Sum of Two Numbers (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "// Sum of Two Numbers - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"12\");\n}\nsolve();\n",
+    "expected_solution": "// Sum of Two Numbers - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"12\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-086",
+    "title": "Even or Odd Checker (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "// Even or Odd Checker - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"Even\");\n}\nsolve();\n",
+    "expected_solution": "// Even or Odd Checker - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"Even\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-087",
+    "title": "Multiplication Table (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "// Multiplication Table - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3 6 9 12 15\");\n}\nsolve();\n",
+    "expected_solution": "// Multiplication Table - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3 6 9 12 15\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-088",
+    "title": "Find Maximum of Three Numbers (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "// Find Maximum of Three Numbers - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"25\");\n}\nsolve();\n",
+    "expected_solution": "// Find Maximum of Three Numbers - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"25\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-089",
+    "title": "Factorial Calculator (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "// Factorial Calculator - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"120\");\n}\nsolve();\n",
+    "expected_solution": "// Factorial Calculator - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"120\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-090",
+    "title": "Count Characters in String (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "// Count Characters in String - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"10\");\n}\nsolve();\n",
+    "expected_solution": "// Count Characters in String - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"10\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-091",
+    "title": "Check Palindrome String (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "// Check Palindrome String - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"YES\");\n}\nsolve();\n",
+    "expected_solution": "// Check Palindrome String - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"YES\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-092",
+    "title": "Array Summation (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "// Array Summation - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"15\");\n}\nsolve();\n",
+    "expected_solution": "// Array Summation - Easy\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"15\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-093",
+    "title": "Reverse Words in a Sentence (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "// Reverse Words in a Sentence - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"Sprint Code World Hello\");\n}\nsolve();\n",
+    "expected_solution": "// Reverse Words in a Sentence - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"Sprint Code World Hello\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-094",
+    "title": "Find Second Largest Element (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "// Find Second Largest Element - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"30\");\n}\nsolve();\n",
+    "expected_solution": "// Find Second Largest Element - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"30\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-095",
+    "title": "Prime Number Sieve (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "// Prime Number Sieve - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"PRIME\");\n}\nsolve();\n",
+    "expected_solution": "// Prime Number Sieve - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"PRIME\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-096",
+    "title": "Fibonacci Sequence Generator (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "// Fibonacci Sequence Generator - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"21\");\n}\nsolve();\n",
+    "expected_solution": "// Fibonacci Sequence Generator - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"21\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-097",
+    "title": "Two Sum Problem (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "// Two Sum Problem - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"2 7\");\n}\nsolve();\n",
+    "expected_solution": "// Two Sum Problem - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"2 7\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-098",
+    "title": "Valid Parentheses (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "// Valid Parentheses - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"VALID\");\n}\nsolve();\n",
+    "expected_solution": "// Valid Parentheses - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"VALID\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-099",
+    "title": "Binary Search Implementation (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "// Binary Search Implementation - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "expected_solution": "// Binary Search Implementation - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-100",
+    "title": "Matrix Transpose (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "// Matrix Transpose - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"1 3\n2 4\");\n}\nsolve();\n",
+    "expected_solution": "// Matrix Transpose - Medium\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"1 3\n2 4\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-101",
+    "title": "Longest Substring Without Repeating Characters (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "// Longest Substring Without Repeating Characters - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "expected_solution": "// Longest Substring Without Repeating Characters - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-102",
+    "title": "Merge K Sorted Arrays (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "// Merge K Sorted Arrays - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"1 1 2 3 4 4 5 6\");\n}\nsolve();\n",
+    "expected_solution": "// Merge K Sorted Arrays - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"1 1 2 3 4 4 5 6\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-103",
+    "title": "Trapping Rain Water (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "// Trapping Rain Water - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"6\");\n}\nsolve();\n",
+    "expected_solution": "// Trapping Rain Water - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"6\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-104",
+    "title": "Coin Change Problem (Min Coins) (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "// Coin Change Problem (Min Coins) - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "expected_solution": "// Coin Change Problem (Min Coins) - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-js-105",
+    "title": "Lowest Common Ancestor in Binary Tree (JavaScript)",
+    "language": "JavaScript",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "expected_solution": "// Lowest Common Ancestor in Binary Tree - Hard\n// Language: JavaScript\nconst fs = require('fs');\nfunction solve() {\n  const input = fs.readFileSync(0, 'utf-8').trim();\n  // Solution logic\n  console.log(\"3\");\n}\nsolve();\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-106",
+    "title": "Sum of Two Numbers (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Math & Basics",
+    "description": "Write a program that takes two numbers and prints their sum.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5 7",
+    "example_output": "12",
+    "hint": "Use the addition operator (+).",
+    "starter_code": "-- Sum of Two Numbers - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Sum of Two Numbers - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": false
+      },
+      {
+        "input": "5 7",
+        "expected_output": "12",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-107",
+    "title": "Even or Odd Checker (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read an integer n and print 'Even' if it is divisible by 2, else 'Odd'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "4",
+    "example_output": "Even",
+    "hint": "Use the modulo operator % 2 == 0.",
+    "starter_code": "-- Even or Odd Checker - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Even or Odd Checker - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": false
+      },
+      {
+        "input": "4",
+        "expected_output": "Even",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-108",
+    "title": "Multiplication Table (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Loops",
+    "description": "Read a number n and print its first 5 multiples on one line separated by spaces.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3",
+    "example_output": "3 6 9 12 15",
+    "hint": "Loop from 1 to 5 and multiply.",
+    "starter_code": "-- Multiplication Table - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Multiplication Table - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": false
+      },
+      {
+        "input": "3",
+        "expected_output": "3 6 9 12 15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-109",
+    "title": "Find Maximum of Three Numbers (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Conditionals",
+    "description": "Read three integers a, b, c and output the largest integer.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 25 15",
+    "example_output": "25",
+    "hint": "Compare using if conditions or max function.",
+    "starter_code": "-- Find Maximum of Three Numbers - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Find Maximum of Three Numbers - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": false
+      },
+      {
+        "input": "10 25 15",
+        "expected_output": "25",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-110",
+    "title": "Factorial Calculator (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Loops & Math",
+    "description": "Compute the factorial of a positive integer n (n!).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "5",
+    "example_output": "120",
+    "hint": "Multiply numbers from 1 to n.",
+    "starter_code": "-- Factorial Calculator - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Factorial Calculator - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": false
+      },
+      {
+        "input": "5",
+        "expected_output": "120",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-111",
+    "title": "Count Characters in String (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Output the total length of a given string.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "CodeSprint",
+    "example_output": "10",
+    "hint": "Use length/len function.",
+    "starter_code": "-- Count Characters in String - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Count Characters in String - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": false
+      },
+      {
+        "input": "CodeSprint",
+        "expected_output": "10",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-112",
+    "title": "Check Palindrome String (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Strings",
+    "description": "Determine if the input string is a palindrome. Output 'YES' or 'NO'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "radar",
+    "example_output": "YES",
+    "hint": "Check if reversed string equals original.",
+    "starter_code": "-- Check Palindrome String - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Check Palindrome String - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": false
+      },
+      {
+        "input": "radar",
+        "expected_output": "YES",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-113",
+    "title": "Array Summation (SQL)",
+    "language": "SQL",
+    "difficulty": "Easy",
+    "category": "Arrays",
+    "description": "Calculate the sum of all elements in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 3 4 5",
+    "example_output": "15",
+    "hint": "Iterate over array and accumulate total.",
+    "starter_code": "-- Array Summation - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Array Summation - Easy\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": false
+      },
+      {
+        "input": "1 2 3 4 5",
+        "expected_output": "15",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-114",
+    "title": "Reverse Words in a Sentence (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Strings",
+    "description": "Reverse the order of words in a space-separated sentence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "Hello World Code Sprint",
+    "example_output": "Sprint Code World Hello",
+    "hint": "Split by space and reverse words list.",
+    "starter_code": "-- Reverse Words in a Sentence - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Reverse Words in a Sentence - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": false
+      },
+      {
+        "input": "Hello World Code Sprint",
+        "expected_output": "Sprint Code World Hello",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-115",
+    "title": "Find Second Largest Element (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Arrays",
+    "description": "Find the second distinct largest element in an array of integers.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "10 40 20 40 30",
+    "example_output": "30",
+    "hint": "Remove duplicates or track top two maximums.",
+    "starter_code": "-- Find Second Largest Element - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Find Second Largest Element - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": false
+      },
+      {
+        "input": "10 40 20 40 30",
+        "expected_output": "30",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-116",
+    "title": "Prime Number Sieve (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Algorithms",
+    "description": "Check whether a given integer n is prime. Output 'PRIME' or 'NOT PRIME'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "29",
+    "example_output": "PRIME",
+    "hint": "Check divisibility up to sqrt(n).",
+    "starter_code": "-- Prime Number Sieve - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Prime Number Sieve - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": false
+      },
+      {
+        "input": "29",
+        "expected_output": "PRIME",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-117",
+    "title": "Fibonacci Sequence Generator (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Recursion & DP",
+    "description": "Output the n-th Fibonacci number (where F(0)=0, F(1)=1, F(2)=1).",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "8",
+    "example_output": "21",
+    "hint": "Use iteration or dynamic programming.",
+    "starter_code": "-- Fibonacci Sequence Generator - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Fibonacci Sequence Generator - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": false
+      },
+      {
+        "input": "8",
+        "expected_output": "21",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-118",
+    "title": "Two Sum Problem (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Hash Maps & Arrays",
+    "description": "Find two numbers in the array that sum up to target T and print their values sorted.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "2 7 11 15\n9",
+    "example_output": "2 7",
+    "hint": "Use a hash set or two pointers.",
+    "starter_code": "-- Two Sum Problem - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Two Sum Problem - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": false
+      },
+      {
+        "input": "2 7 11 15\n9",
+        "expected_output": "2 7",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-119",
+    "title": "Valid Parentheses (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Stacks",
+    "description": "Determine if a string of brackets '()[]{}' is balanced. Output 'VALID' or 'INVALID'.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "{[()]}",
+    "example_output": "VALID",
+    "hint": "Use a stack to match opening and closing brackets.",
+    "starter_code": "-- Valid Parentheses - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Valid Parentheses - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": false
+      },
+      {
+        "input": "{[()]}",
+        "expected_output": "VALID",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-120",
+    "title": "Binary Search Implementation (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "Searching",
+    "description": "Search for target k in a sorted array. Output index or -1.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 3 5 7 9 11\n7",
+    "example_output": "3",
+    "hint": "Use divide and conquer binary search.",
+    "starter_code": "-- Binary Search Implementation - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Binary Search Implementation - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 3 5 7 9 11\n7",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-121",
+    "title": "Matrix Transpose (SQL)",
+    "language": "SQL",
+    "difficulty": "Medium",
+    "category": "2D Arrays",
+    "description": "Transpose a 2x2 or 3x3 matrix and print rows.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2\n3 4",
+    "example_output": "1 3\n2 4",
+    "hint": "Swap matrix[i][j] with matrix[j][i].",
+    "starter_code": "-- Matrix Transpose - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Matrix Transpose - Medium\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": false
+      },
+      {
+        "input": "1 2\n3 4",
+        "expected_output": "1 3\n2 4",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-122",
+    "title": "Longest Substring Without Repeating Characters (SQL)",
+    "language": "SQL",
+    "difficulty": "Hard",
+    "category": "Sliding Window",
+    "description": "Find length of longest contiguous substring with all unique characters.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "abcabcbb",
+    "example_output": "3",
+    "hint": "Use sliding window with character frequency map.",
+    "starter_code": "-- Longest Substring Without Repeating Characters - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Longest Substring Without Repeating Characters - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "abcabcbb",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-123",
+    "title": "Merge K Sorted Arrays (SQL)",
+    "language": "SQL",
+    "difficulty": "Hard",
+    "category": "Heaps & Priority Queues",
+    "description": "Merge multiple sorted arrays into a single unified sorted sequence.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 4 5\n1 3 4\n2 6",
+    "example_output": "1 1 2 3 4 4 5 6",
+    "hint": "Use a min-heap or merge-sort approach.",
+    "starter_code": "-- Merge K Sorted Arrays - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Merge K Sorted Arrays - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": false
+      },
+      {
+        "input": "1 4 5\n1 3 4\n2 6",
+        "expected_output": "1 1 2 3 4 4 5 6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-124",
+    "title": "Trapping Rain Water (SQL)",
+    "language": "SQL",
+    "difficulty": "Hard",
+    "category": "Two Pointers & Arrays",
+    "description": "Compute how much water can be trapped after raining given elevation heights.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "0 1 0 2 1 0 1 3 2 1 2 1",
+    "example_output": "6",
+    "hint": "Track left_max and right_max bounds.",
+    "starter_code": "-- Trapping Rain Water - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Trapping Rain Water - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": false
+      },
+      {
+        "input": "0 1 0 2 1 0 1 3 2 1 2 1",
+        "expected_output": "6",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-125",
+    "title": "Coin Change Problem (Min Coins) (SQL)",
+    "language": "SQL",
+    "difficulty": "Hard",
+    "category": "Dynamic Programming",
+    "description": "Find minimum number of coins needed to make amount A from coin denominations.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "1 2 5\n11",
+    "example_output": "3",
+    "hint": "Use bottom-up dynamic programming DP[i].",
+    "starter_code": "-- Coin Change Problem (Min Coins) - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Coin Change Problem (Min Coins) - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "1 2 5\n11",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  },
+  {
+    "id": "ch-sql-126",
+    "title": "Lowest Common Ancestor in Binary Tree (SQL)",
+    "language": "SQL",
+    "difficulty": "Hard",
+    "category": "Trees & Graphs",
+    "description": "Find the LCA of two nodes in a binary tree hierarchy.",
+    "constraints": [
+      "Time Limit: 3.5 seconds",
+      "Memory Limit: 256 MB",
+      "Input format: Standard Input (stdin)"
+    ],
+    "example_input": "3 5 1 6 2 0 8\n5 1",
+    "example_output": "3",
+    "hint": "Traverse recursively checking left and right subtrees.",
+    "starter_code": "-- Lowest Common Ancestor in Binary Tree - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "expected_solution": "-- Lowest Common Ancestor in Binary Tree - Hard\n-- Language: SQL\nSELECT * FROM students WHERE marks >= 80;\n",
+    "test_cases": [
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": false
+      },
+      {
+        "input": "3 5 1 6 2 0 8\n5 1",
+        "expected_output": "3",
+        "hidden": true
+      }
+    ]
+  }
+]
